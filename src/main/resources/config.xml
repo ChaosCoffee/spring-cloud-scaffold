@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<!--<jedis>-->
+<!--<ip>127.0.0.1</ip>-->
+<!--<port>6379</port>-->
+<!--<password></password>-->
+<!--</jedis>-->
+<properties>
+    <comment>jedis</comment>
+    <entry key="jedis.ip">127.0.0.1</entry>
+    <entry key="jedis.port">6379</entry>
+    <entry key="jedis.password"></entry>
+</properties>

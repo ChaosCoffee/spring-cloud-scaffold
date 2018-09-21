@@ -1,9 +1,15 @@
 # spring-cloud-scaffold
 spring-cloud脚手架示例  
 
+
 此工程为了平时搭建项目的寻找依赖组件等，只为了实现最快搭建基础框架和简单示例。  
 
-为了方便，统一版本:
+为了方便，统一版本: 
+
+
+- jdk版本: 1.8  
+- spring-boot版本: 2.0.5.RELEASE  
+- spring-cloud版本: Finchley.SR1  
 
 ``` xml
 <parent>

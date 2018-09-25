@@ -1,25 +1,4 @@
 language: java
-sudo: false
 
 jdk:
   - oraclejdk8
-
- cache:
-  directories:
-  - "$HOME/.m2"
-
-jobs:
-  include:
-  - stage: test
-    jdk: oraclejdk8
-    script: 
-    - cd ./springcloud-jpa
-    - mvn clean verify -DskipTests=true
-  - jdk: oraclejdk8
-    script: 
-    - cd ./springcloud-mybatisplus
-    - mvn clean verify -DskipTests=true
-
-branches:
-  only:
-  - master

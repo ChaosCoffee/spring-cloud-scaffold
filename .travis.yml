@@ -17,6 +17,7 @@ jobs:
     - mvn clean verify -DskipTests=true
   - jdk: oraclejdk8
     script: 
+    - cd ./springcloud-mybatisplus
     - mvn clean verify -DskipTests=true
 
 branches:

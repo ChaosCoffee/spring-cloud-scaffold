@@ -22,4 +22,4 @@ spring-cloud脚手架示例
 Project | description
 ----|----
 springcloud-jpa|[集成spring-boot-starter-data-jpa的简单示例](https://github.com/ChaosCoffee/spring-cloud-scaffold/tree/master/springcloud-jpa)
-springcloud-mybatisplus|待补充
+springcloud-mybatisplus|[集成mybatis-plus-boot-starter的简单示例](https://github.com/ChaosCoffee/spring-cloud-scaffold/tree/master/springcloud-mybatisplus)

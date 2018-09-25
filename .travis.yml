@@ -1,7 +1,10 @@
 language: java
 sudo: false
 
-cache:
+jdk:
+  - oraclejdk8
+
+ cache:
   directories:
   - "$HOME/.m2"
 
@@ -9,11 +12,13 @@ jobs:
   include:
   - stage: test
     jdk: oraclejdk8
-    script: mvn clean test
+    script: 
+    - cd ./springcloud-jpa
+    - mvn clean verify -DskipTests=true
+  - jdk: oraclejdk8
+    script: 
+    - mvn clean verify -DskipTests=true
 
 branches:
   only:
   - master
-
-after_success:
-  - codecov

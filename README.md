@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ChaosCoffee/spring-cloud-scaffold.svg?branch=master)](https://travis-ci.org/ChaosCoffee/spring-cloud-scaffold)  
 # spring-cloud-scaffold
 spring-cloud脚手架示例  
 

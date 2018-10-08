@@ -55,6 +55,8 @@ spring:
       settings:
         trace: false
         web-allow-others: true
+  server:
+    port: 8088
 ```
 
 ## 代码生成  

@@ -95,7 +95,7 @@ public class CodeGenerator {
         strategy.setSuperEntityClass("com.chaoscoffee.dao.entity.base.BaseEntity");
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
-        strategy.setSuperControllerClass("com.chaoscoffee.controller.BaseController");
+        strategy.setSuperControllerClass("com.chaoscoffee.controller.base.BaseController");
         strategy.setInclude(scanner("表名"));
         strategy.setSuperEntityColumns("id");
         strategy.setControllerMappingHyphenStyle(true);
